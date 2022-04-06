@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    background: linear-gradient(to left, rgba(0, 183, 255, 0.733), rgba(88, 0, 74, 0.63));
+    flex-wrap: wrap;
+    justify-content: start;
+
+}
+
+.flex-item{
+    margin: 10px;
+    flex-basis: 250px;
+    font-size: 18px;
+
+}
+
+.content {
+    justify-content: space-between;
+
+
+}
+
+img {
+    width: 150px;
+    justify-content: start;
+    margin-top: 80px; 
+    
+
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 25px;
+    color: rgb(27, 27, 27);
+}
+
+h3{
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+p {
+    border-left: 2px solid rgba(253, 253, 253, 0);
+    padding-left: 18px;
+    border-right: 2px solid rgba(255, 253, 253, 0);
+
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    background-color: rgba(160, 8, 248, 0);
+    border-radius: 5px;
+    z-index: 2;
+    border: 1px solid rgb(48, 48, 48);
+    font-size: 18px;
+}
+
+.placeholder{
+    color: black;
+    height: 40px;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.541);
+}
+
+.logo{
+    float: left;
+}
+.fixed {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(255, 138, 239, 0.712);
+}
+.footer {
+    height: 400px;
+    background-color: rgba(255, 176, 244, 0.822);
+    border-radius: 2px;
+}

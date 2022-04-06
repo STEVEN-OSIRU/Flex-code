@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    width: 20%;
+    height: 100vh;
+    background: rgba(46, 45, 46, 0);
+    list-style: none;
+    position: relative;
+}
+
+li{
+    max-width: 80%;
+    padding: 18px 22px;
+    margin-bottom: 20px;
+    border-top-right-radius: 16px; 
+    border-bottom-right-radius: 16px;
+    border: width 2px solid rgb(240, 238, 238);
+   
+    
+}
+
+.absolute{
+    position: absolute;
+    margin-top: 50px;
+}
+
+a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    cursor: pointer;
+    background: rgba(18, 235, 206, 0);
+}
+li>a:hover{
+    color: rgba(255, 0, 0, 0.973);
+}
+.active{
+    background: rgba(12, 191, 236, 0.096);
+}
+.active>a {
+    color: rgb(15, 15, 15);
+}
